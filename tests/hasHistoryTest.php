@@ -6,6 +6,8 @@ use Folded\History;
 use function Folded\addRequestedUrlToHistory;
 use function Folded\hasHistory;
 
+session_start();
+
 beforeEach(function (): void {
     History::clear();
 });
