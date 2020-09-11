@@ -54,10 +54,10 @@ class History
             return;
         }
 
-        if (is_array($_SESSION[self::SESSION_KEY])) {
-            $_SESSION[self::SESSION_KEY][] = self::$currentUrl;
-        } else {
+        if (!isset($_SESSION[self::SESSION_KEY]) || !is_array($_SESSION[self::SESSION_KEY])) {
             $_SESSION[self::SESSION_KEY] = [self::$currentUrl];
+        } else {
+            $_SESSION[self::SESSION_KEY][] = self::$currentUrl;
         }
     }
 
