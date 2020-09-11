@@ -5,7 +5,9 @@ declare(strict_types = 1);
 use Folded\History;
 use Folded\Exceptions\HistoryNotFoundException;
 
-session_start();
+if (session_status() !== PHP_SESSION_ACTIVE) {
+    session_start();
+}
 
 beforeEach(function (): void {
     History::clear();
