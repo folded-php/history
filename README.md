@@ -2,6 +2,8 @@
 
 Manipulate the browser history in your web app.
 
+[![Build Status](https://travis-ci.com/folded-php/history.svg?branch=master)](https://travis-ci.com/folded-php/history) [![Maintainability](https://api.codeclimate.com/v1/badges/388dfdab788e0321f001/maintainability)](https://codeclimate.com/github/folded-php/history/maintainability)
+
 ## Summary
 
 - [About](#about)
