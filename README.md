@@ -2,7 +2,7 @@
 
 Manipulate the browser history in your web app.
 
-[![Build Status](https://travis-ci.com/folded-php/history.svg?branch=master)](https://travis-ci.com/folded-php/history) [![Maintainability](https://api.codeclimate.com/v1/badges/388dfdab788e0321f001/maintainability)](https://codeclimate.com/github/folded-php/history/maintainability)
+[![Packagist License](https://img.shields.io/packagist/l/folded/history)](https://github.com/folded-php/history/blob/master/LICENSE) [![Packagist PHP Version Support](https://img.shields.io/packagist/php-v/folded/history)](https://github.com/folded-php/history/blob/master/composer.json#L14) [![Packagist Version](https://img.shields.io/packagist/v/folded/history)](https://packagist.org/packages/folded/history) [![Build Status](https://travis-ci.com/folded-php/history.svg?branch=master)](https://travis-ci.com/folded-php/history) [![Maintainability](https://api.codeclimate.com/v1/badges/388dfdab788e0321f001/maintainability)](https://codeclimate.com/github/folded-php/history/maintainability)
 
 ## Summary
 
