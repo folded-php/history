@@ -25,6 +25,7 @@ Folded is a constellation of packages to help you setting up a web app easily, u
 - [folded/orm](https://github.com/folded-php/orm): An ORM for you web app.
 - [folded/routing](https://github.com/folded-php/routing): Routing functions for your PHP web app.
 - [folded/request](https://github.com/folded-php/request): Request utilities, including a request validator, for your PHP web app.
+- [folded/session](https://github.com/folded-php/session): Session functions for your web app.
 - [folded/view](https://github.com/folded-php/view): View utilities for your PHP web app.
 
 ## Features
