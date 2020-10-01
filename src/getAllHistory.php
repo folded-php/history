@@ -4,7 +4,7 @@ declare(strict_types = 1);
 
 namespace Folded;
 
-if (!function_exists("getAllHistory")) {
+if (!function_exists("Folded\getAllHistory")) {
     /**
      * Get all the URLs stored in the history.
      *

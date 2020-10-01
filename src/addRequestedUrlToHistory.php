@@ -4,7 +4,7 @@ declare(strict_types = 1);
 
 namespace Folded;
 
-if (!function_exists("addRequestedUrlToHistory")) {
+if (!function_exists("Folded\addRequestedUrlToHistory")) {
     /**
      * Add the current browsed URL to the history.
      *

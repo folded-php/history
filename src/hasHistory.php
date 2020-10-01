@@ -4,7 +4,7 @@ declare(strict_types = 1);
 
 namespace Folded;
 
-if (!function_exists("hasHistory")) {
+if (!function_exists("Folded\hasHistory")) {
     /**
      * Returns true if the index is present in the history.
      *
