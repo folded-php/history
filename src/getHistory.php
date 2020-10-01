@@ -4,7 +4,7 @@ declare(strict_types = 1);
 
 namespace Folded;
 
-if (!function_exists("getHistory")) {
+if (!function_exists("Folded\getHistory")) {
     /**
      * Get the URL in the history at a given index.
      * Let it empty to get the last URL in the history.
