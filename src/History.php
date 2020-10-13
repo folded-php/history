@@ -83,7 +83,7 @@ final class History
      *
      * @param int $index The index to get in the history. Indexes goes from 0 to negative.
      *
-     * @throws Folded\Exceptions\HistoryNotFoundException If the index is not found.
+     * @throws HistoryNotFoundException If the index is not found.
      *
      * @since 0.1.0
      *
@@ -103,6 +103,8 @@ final class History
 
     /**
      * Get all the URLs stored in the history.
+     *
+     * @return array<string>
      *
      * @since 0.1.0
      *
@@ -167,7 +169,7 @@ final class History
      *  echo "store this url";
      * }
      */
-    private static function previousUrlIsIdentical()
+    private static function previousUrlIsIdentical(): bool
     {
         return self::has(0) && self::get(0) === self::$currentUrl;
     }
