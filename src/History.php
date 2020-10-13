@@ -11,7 +11,7 @@ use Folded\Exceptions\HistoryNotFoundException;
  *
  * @since 0.1.0
  */
-class History
+final class History
 {
     /**
      * The key in the $_SESSION array.
