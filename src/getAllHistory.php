@@ -8,6 +8,8 @@ if (!function_exists("Folded\getAllHistory")) {
     /**
      * Get all the URLs stored in the history.
      *
+     * @return array<string>
+     *
      * @since 0.1.0
      *
      * @example

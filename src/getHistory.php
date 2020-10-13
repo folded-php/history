@@ -4,6 +4,8 @@ declare(strict_types = 1);
 
 namespace Folded;
 
+use Folded\Exceptions\HistoryNotFoundException;
+
 if (!function_exists("Folded\getHistory")) {
     /**
      * Get the URL in the history at a given index.
@@ -11,7 +13,7 @@ if (!function_exists("Folded\getHistory")) {
      *
      * @param int $index The index to get in the history. Indexes goes from 0 to negative.
      *
-     * @throws Folded\Exceptions\HistoryNotFoundException If the index is not found.
+     * @throws HistoryNotFoundException If the index is not found.
      *
      * @since 0.1.0
      *
